@@ -1,0 +1,109 @@
+/* Custom styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Custom background color */
+.bg-purple {
+    background-color: #4b0082 !important;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.services .card {
+    transition: transform 0.2s;
+    background-color: #deddd1 !important;
+    border: none; /* Remove border for cleaner look */
+}
+
+.services .card:hover {
+    transform: scale(1.05);
+}
+
+.services .card-img-top {
+    margin-top: 15px; /* Add some space above the icons */
+    margin-bottom: 15px; /* Add some space below the icons */
+}
+
+
+.stat-box {
+    transition: transform 0.2s;
+}
+
+.stat-box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+.astrologers {
+    background-color: #f8f9fa;
+}
+
+.astrologers .card {
+    transition: transform 0.2s;
+}
+
+.astrologers .card:hover {
+    transform: scale(1.05);
+}
+
+.why-astrology {
+    background-color: #f8f9fa;
+}
+
+.why-astrology h2 {
+    color: #4b0082;
+}
+
+.why-astrology p {
+    color: #333;
+}
+
+.why-astrology ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.why-astrology .btn-warning {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.faq {
+    background-color: #f8f9fa;
+}
+
+.faq h2 {
+    color: #4b0082;
+}
+
+.accordion-button {
+    background-color: #ffd700;
+    color: #4b0082;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #4b0082;
+    background-color: #e6c300;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    color: #333;
+}
