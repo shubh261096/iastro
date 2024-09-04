@@ -94,7 +94,7 @@ footer {
 }
 
 .why-astrology .btn-warning {
-    background-color: #ffd700;
+    background-color: #FF9500;
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -109,16 +109,26 @@ footer {
 }
 
 .accordion-button {
-    background-color: #ffd700;
+    background-color: #FF9500;
     color: #4b0082;
 }
 
 .accordion-button:not(.collapsed) {
     color: #4b0082;
-    background-color: #e6c300;
+    background-color: #FF9500;
 }
 
 .accordion-body {
     background-color: #ffffff;
     color: #333;
+}
+
+.btn-warning {
+    background-color: #FF9500; /* Replace with your desired background color */
+    color: white; /* Text color */
+    border: none; /* Remove border if desired */
+}
+
+.btn-warning:hover {
+    background-color: #cf7c07; /* Darker shade for hover effect */
 }
