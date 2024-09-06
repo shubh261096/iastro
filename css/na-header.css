@@ -1,0 +1,199 @@
+
+/* --------------------------------------------------- 
+HEADER / NAVIGATION / LOGO -- STYLE
+ --------------------------------------------------- */
+
+header{
+    font-family: 'Poppins', sans-serif;
+	background: #0C0B1D;
+	padding: 15px 0px;
+}
+
+/*STICKY-HEADER*/
+
+.sp-sticky{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.sp-sticky-child{
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.sp-sticky.sp-active{
+    /* box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .4); */
+}
+
+.namoastroLogo {
+    padding: 0;
+    float: left;
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center the items */
+}
+
+.logo-icon {
+    width: 80px; /* Fixed width */
+    height: 80px; /* Fixed height */
+}
+
+.logo-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #FF9500; /* Use the color that matches your brand */
+    margin: 0; /* Remove default margins */
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Arial', sans-serif; /* Change the font family if needed */
+}
+
+
+.namoastroLogo span {
+    background: url(../images/logo1.svg);
+    padding: 20px;
+    width: 160px;
+    height: 49px;
+    display: block;
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+/*LOGIN/SIGNUP STYLE*/
+
+.naLoginSign {
+    min-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    padding: 0px 0px 0px 20px;
+    border-left: 1px solid rgb(28 25 70);
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.naLoginSign a {
+    font-weight: 600;
+    border: 1px solid #5899a1;
+    border-radius: 15px;
+    padding: 6px 10px;
+    font-size: 12px;
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.naLoginSign a:first-child {
+    border-color: #F48534;
+    color: #fff;
+    text-transform: uppercase;
+    background: #F48534;
+}
+
+.naLoginSign a:last-child {
+    margin-right: 0;
+    border-color: #fff;
+    background: #fff;
+    color: #F48534;
+    text-transform: uppercase;
+}
+
+.naLoginSign a:hover {
+    background: #3F51B5;
+    color: #fff;
+    border: 1px solid #3F51B5;
+}
+
+.naUserMobBalance {
+    display:none;
+}
+
+/***********************************/
+
+@media screen and (max-width:768px) {
+
+    /* HEADER STYLE */
+    header {
+        padding: 10px 0px;
+        min-height: 66px;
+    }
+
+    .namoastroLogo span {
+        width: 150px;
+        height: 46px;
+        background-size: 150px;
+    }
+
+    .naLoginSign {
+        text-align: center;
+        margin: 10px 0px 0px;
+        padding: 18px 0px 0px 0px;
+        border-top: 1px solid rgb(66 34 124);
+        border-left: none;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .naLoginSign a {
+        border: 1px solid #5899a1;
+        border-radius: 45px;
+        padding: 10px 30px;
+        font-size: 12px;
+        margin-right: 6px;
+        text-decoration: none;
+        margin: 10px;
+        display: inline-block;
+    }
+
+    /*header Wallet Balance*/
+
+    .naUserMobBalance {
+        display: inline-block;
+        position: absolute;
+        right: 52px;
+        top: 0px;
+        border-right: 1px solid #1b1941;
+        padding: 0px 14px 0px 0px;
+        height: 65px;
+        line-height: 21px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .naUserMobBalance h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0px;
+    }
+
+    .naUserMobBalance h3 ion-icon.md.hydrated {
+        font-size: 16px;
+        position: relative;
+        top: 2px;
+        color:#fff;
+    }
+
+    .naUserMobBalance h3 strong {
+        font-weight: 600;
+        color: #f48534;
+    }
+
+    .naUserMobBalance h3 strong span {
+        margin-right: 2px;
+        font-family: sans-serif;
+    }
+
+}

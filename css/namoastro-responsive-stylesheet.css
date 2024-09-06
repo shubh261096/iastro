@@ -1,0 +1,761 @@
+
+@media screen and (max-width:768px) {
+
+    body {
+        padding-top: 63px !important;
+    }
+
+    .inner-banner-strip h1 select {
+        font-size: 28px !important;
+        font-weight: 700;
+        padding: 0px 0px 0px 6px !important;
+        width: 96px;
+    }
+
+    .inner-banner-strip h1 select option {
+        font-size: 22px;
+    }
+
+    .acceptable-payment ul li img {
+        margin-bottom: 10px;
+    }
+    p.subHeading {
+        padding: 0px 2%;
+    }
+
+    .na-section-heading h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        line-height: 35px;
+    }
+
+    .na-section-heading h2:after {
+        display: none;
+    }
+
+    .namoastroLogo {
+        position: absolute;
+        z-index: 10;
+    }
+
+    h3.na-section-sub-heading {
+        font-size: 21px;
+        margin: 5px 0px 15px 0px;
+        line-height: 31px;
+    }
+
+    /* --------------------------------------------------- 
+    FORM FIELDS -- STYLE
+    --------------------------------------------------- */
+    .form-control, .form-select {
+        border-radius: 50px !important;
+        font-size: 13px !important;
+        padding: 6px 15px !important;
+    }
+
+    .chat-intake-form .form-label {
+        margin-bottom: 4px !important;
+        margin-top: 10px !important;
+    }
+
+    /*FORM HEADING*/
+    .profile-formhead h2 {
+        font-size: 22px !important;
+    }
+
+    .profile-formhead h2 span {
+        top: 14px !important;
+    }
+
+    p.login-terms {
+        padding: 0px 5%;
+    }
+
+
+    /* --------------------------------------------------- 
+    BANNER STYLE
+    --------------------------------------------------- */
+
+    .nahp-Bannerwrap {
+        padding: 30px 0px 100px;
+    }
+
+    .na-ban-left {
+        display: inline-block;
+        min-height: auto;
+        padding: 0px 10px !important;
+        text-align: center;
+    }
+
+    .na-ban-left h3 {
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .na-ban-left h1 {
+        margin: 7px 0px 20px;
+        font-size: 35px;
+        text-align: center;
+        line-height: 42px;
+    }
+
+    .na-ban-left p {
+        font-size: 14px;
+        line-height: 27px;
+        margin: 0px 0px 20px;
+    }
+
+    .na-ban-right-img {
+        margin-top: 20px;
+    }
+
+    .na-ban-right-img .as_sun_horoscope {
+        width: 36%;
+    }
+
+    .callAstro-btn, .chatAstro-btn {
+        width: 72% !important;
+        margin: 0px 0px 20px;
+    }
+
+    .callAstro-btn {
+        padding: 10px 12px;
+        font-size: 16px;
+        width: auto;
+        min-width: unset;
+    }
+
+    .chatAstro-btn {
+        padding: 10px 12px;
+        font-size: 16px;
+        margin-left: 0px;
+        width: auto;
+        min-width: unset;
+    }
+
+    .nahp-Bannerwrap:after {
+        background-size: cover;
+    }
+
+    .na-inner-banner-wrap {
+        padding: 20px 0px;
+    }
+
+    .inner-banner-strip h1 {
+        color: #fff;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 28px;
+        margin: 0px 0px 8px;
+        font-weight: 700;
+    }
+
+    /* --------------------------------------------------- 
+    OUR ASTRLOGERS STYLE
+    --------------------------------------------------- */
+    
+    .na-astrologer-block-wrap p {
+        margin-bottom: 10px;
+    }
+
+    .service-cost {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-cost p {
+        margin: 0px;
+    }
+
+    .service-cost p.StrikethroughRate {
+        margin: 4px 0px 0px 8px !important;
+    }
+
+    p.StrikethroughRate {
+        font-size: 13px !important;
+        line-height: 14px;
+        margin: 4px 0px 0px 0px !important;
+    }
+
+    .astro-service-cost-lg p.StrikethroughRate {
+        text-align: end;
+    }
+
+    .service-feature-option {
+        text-align: center;
+        margin: 20px 0px 0px;
+    }
+
+    .forAstrologerCard figure {
+        width: 79px;
+        height: 79px;
+    }
+
+    /* --------------------------------------------------- 
+    ASK-EXPERT STYLE
+    --------------------------------------------------- */
+
+    .askExpert h2, .askExpert p {
+        text-align: center;
+    }
+
+    .askExpert h2 {
+        margin-top: 40px;
+    }
+
+    .askExpert p {
+        font-size: 13px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+
+    /* --------------------------------------------------- 
+    ABOUT-SECTION STYLE
+    --------------------------------------------------- */
+
+    .about-features {
+        display: flex;
+        flex-direction: initial;
+        padding: 14px 16px;
+        min-height: 86px;
+        margin: 10px 0px;
+    }
+
+    .about-features p {
+        font-size: 22px;
+        padding: 13px 0px 0px;
+    }
+
+    .about-features figure img {
+        width: 50px;
+    }
+
+    .about-features figure {
+        width: 55px;
+        margin: 7px 17px 0px 0px;
+        padding: 2px 0px 0px;
+    }
+
+    .mission-vission-block {
+        padding: 15px 30px;
+    }
+
+    .mission-vission-block figure {
+        float: none;
+        margin: 15px 20px 0px 0px;
+        display: flex;
+        height: 60px;
+        width: 60px;
+    }
+
+    /* --------------------------------------------------- 
+    SERVICES-SECTION -- STYLE
+    --------------------------------------------------- */
+
+    .personalised-horoscope h2 {
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .PersonliseSunSign {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    /* --------------------------------------------------- 
+    STATS-SECTION -- STYLE
+    --------------------------------------------------- */
+
+    .na-stats-block {
+        color: #fff;
+        border-radius: 120px;
+        border: 1px solid #fff;
+        padding: 18px 10px;
+        margin: 25px 20px 0px;
+    }
+
+    /* --------------------------------------------------- 
+    STATS-SECTION -- STYLE
+    --------------------------------------------------- */
+
+    .expertPicture figure {
+        width: auto;
+    }
+
+    .expertPicture {
+        position: relative;
+        left: -45px;
+    }
+
+    img.img-responsive.an-zodiac-sign-circle_bg {
+        width: 58%;
+    }
+
+    img.img-responsive.an-indian-priests {
+        width: 85%;
+    }
+
+    .na-extpertBtn {
+        padding: 10px 14px;
+        float: left;
+        width: 100%;
+    }
+
+    /* --------------------------------------------------- 
+    FAQ's -- STYLE
+    --------------------------------------------------- */
+
+    .accordion-header .accordion-button {
+        font-weight: 700;
+        line-height: 29px;
+    }
+
+    /* --------------------------------------------------- 
+    TESTIMONIALS-SECTION -- STYLE
+    --------------------------------------------------- */
+
+    .na-testimonials-block {
+        min-height: auto;
+    }
+
+
+    /* --------------------------------------------------- 
+    VIDEO-SECTION -- STYLE
+    --------------------------------------------------- */
+
+    .na-video-frame {
+        width: 100%;
+        border-radius: 10px;
+        margin: 0px 0px 23px;
+    }
+
+    /* --------------------------------------------------- 
+    PROFILE PAGE -- STYLE
+    --------------------------------------------------- */
+
+    .profile-items {
+        float: none;
+        margin: 25px 0px 0px;
+        text-align: center;
+    }
+
+    .na-user-details figure {
+        width: 100px;
+        height: 100px;
+        float: none;
+        margin: 0px auto 0px;
+    }
+
+    .profile-items h3 {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 20px;
+        color: #333;
+    }
+
+    .profile-items p {
+        margin: 5px 0px -5px 0px;
+    }
+
+    .profile-items .callAstro-btn, .profile-items .chatAstro-btn {
+        width: 50% !important;
+        margin: -10px 0px 20px;
+    }
+
+    .na-user-profile {
+        background: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px -5px rgb(0 0 0 / 6%);
+        margin: 0px 0px 15px;
+        position: relative;
+    }
+
+    .profile-extra-items {
+        font-family: 'Poppins', sans-serif;
+        border-top: 1px solid rgb(153 153 153 / 20%);
+        border-left: none;
+        min-height: auto;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .astro-service-cost-lg {
+        right: -7px;
+        top: -9px;
+    }
+
+    .profile-extra-items .na-statusOnline p {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+
+
+    /* --------------------------------------------------- 
+    BREADCRUM -- STYLE
+    --------------------------------------------------- */
+
+    nav.simple-beadcrumb .breadcrumb {
+        font-size: 12px !important;
+        letter-spacing: 0px !important;
+    }
+
+    li.breadcrumb-item.active:last-child {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 40%;
+    }
+
+    /* --------------------------------------------------- 
+    FREE KUNDLI -- STYLE
+    --------------------------------------------------- */
+
+    .na-certified-astrologers {
+        min-height: 410px;
+        margin-bottom: 30px;
+    }
+
+    .na-kundli-calculator {
+        padding: 20px 16px 35px;
+    }
+
+    .na-kundli-calculator .form-control, .na-kundli-calculator .form-select {
+        border-radius: 50px;
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    .na-kundli-calculator .na-primaryBtn {
+        margin-top: 10px;
+        padding: 10px 12px;
+    }
+
+
+    /* --------------------------------------------------- 
+    LOGIN-SIGNUP -- STYLE
+    --------------------------------------------------- */
+
+    .phone-login-signup {
+        padding: 30px 21px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .phone-login-signup .counrtyPhone .form-control {
+        padding: 8px 3px 8px 15px !important;
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 4px;
+        top: 4px;
+    }
+
+    .dd {
+        position: relative !important;
+    }
+
+    .other-info-models {
+        padding: 30px 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 250px;
+    }
+
+    .other-info-models .btn-phone-number {
+        min-width: 90%;
+    }
+
+    .input-group.counrtyPhone {
+        flex-wrap: nowrap !important;
+    }
+
+    .col-md-6.mobileInactiveCol {
+        display: none;
+    }
+
+    /* --------------------------------------------------- 
+    TALK & CHAT -- STYLE
+    --------------------------------------------------- */
+
+    .astro-talk-chat {
+        padding: 20px 0px 30px;
+    }
+
+    .na-chat-talk-filter-block {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .na-chat-talk-filter-block h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .toAstrologerOnly {
+        background-color: #fff;
+        box-shadow: 0px 12px 12px -5px rgb(192 200 205 /30%);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0px 0px 15px;
+    }
+
+    .balance-wallet-btn {
+        min-width: 235px;
+    }
+
+    .searchFilter {
+        margin: 0px;
+        width: auto;
+        float: right;
+    }
+
+    .astro-chat-tal-search {
+        width: 100%;
+        margin: 20px 0px 0px;
+    }
+
+    /* ASTRO CARD */
+
+    .na-astro-more-info {
+        padding: 10px 15px;
+    }
+
+    .user-useful-btns .callAstro-btn, .user-useful-btns .chatAstro-btn {
+        width: 85px !important;
+        margin: 0px 0px 0px 13px;
+    }
+
+    .na-astro-more-info .na-profile-rating {
+        margin: 12px 0px 0px;
+        float: left;
+        font-size: 12px;
+    }
+
+    .na-astro-more-info .na-profile-rating i {
+        font-size: 13px;
+        margin: 4px 0px 0px -1px;
+    }
+
+    .na-Profile-wrap {
+        padding: 20px 0px;
+    }
+
+    /* --------------------------------------------------- 
+    FILTER -- STYLE
+    --------------------------------------------------- */
+
+    .filterWrap {
+        padding: 15px;
+        background: #fff;
+    }
+
+    .filterWrap .nav-pills .nav-link {
+        padding: 8px 10px;
+        font-size: 14px;
+        width: 110px;
+    }
+
+    .align-items-start {
+        align-items: flex-start !important;
+        padding: 0px 20px 0px 0px;
+    }
+
+
+    /* --------------------------------------------------- 
+    DAILY / WEEKLY / MONTHLY / YEARLY - HOROSCOPES -- STYLE
+    --------------------------------------------------- */
+
+    .horoscope-wrap {
+        display: grid;
+        text-align: center;
+        margin: 0px 0px 33px;
+    }
+
+    .horoscope-wrap figure {
+        width: 80px;
+        height: 80px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+
+    .horoscope-wrap figure img {
+        width: 100%;
+        height: auto;
+    }
+
+    .allTransactions td:nth-child(2) {
+        text-align: center;
+    }
+
+
+    /* --------------------------------------------------- 
+    ALL CALENDAR PAGES -- STYLE
+    --------------------------------------------------- */
+
+    .allTransactions thead th {
+        font-weight: 700;
+        color: #333333;
+        font-size: 13px;
+    }
+
+
+    .calendarSection {
+        padding: 15px 10px !important;
+    }
+
+    /*.moonFace {
+        float: none;
+        margin-right: 0;
+        text-align: center;
+    }*/
+
+    .calendarTablewrap span {
+        display: block;
+    }
+
+    /*LOGEDIN USER STYLE*/
+    /* MENU_DROPDOWN */
+
+    .naLoggedinuser {
+        min-height: auto;
+        font-family: 'Poppins', sans-serif;
+        float: left;
+        padding: 0px 0px 0px 0px;
+        border-top: 1px solid rgb(66 34 124);
+        border-bottom: 1px solid rgb(66 34 124);
+        border-left: none;
+        margin: 10px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: stretch;
+        width: 100%;
+    }
+
+    .naLoggedinuser li figure {
+        background: #D1DAE1;
+        width: 35px;
+        height: 35px;
+        margin: 0px;
+        border-radius: 100%;
+        overflow: hidden;
+        float: left;
+        margin: 15px 0px 15px 10px;
+    }
+
+    .loggedinUserName {
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .loggedinUserName h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-size: 14px;
+        margin: 0px;
+        padding: 4px 0px;
+        font-weight: 600;
+    }
+
+    .loggedinUserName h3 a {
+        padding: 15px 0px !important;
+        margin: 0;
+    }
+
+    .naLoggedinuser li.has-sub a {
+        padding: 15px !important;
+        display: flex !important;
+    }
+
+    .naLoggedinuser li.has-sub ul {
+        top: 0;
+    }
+
+    .naLoggedinuser .submenu-button {
+        height: 65px !important;
+    }
+
+    .naLoggedinuser li.has-sub ul li a {
+        padding: 13px 15px !important;
+        font-size: 14px;
+        color: #b8bcd3;
+        background: none;
+    }
+
+    .naLoggedinuser .submenu-button::before {
+        content: '';
+        position: absolute;
+        top: 33px !important;
+    }
+
+    .naLoggedinuser .submenu-button::after {
+        content: '';
+        position: absolute;
+        top: 28px !important;
+    }
+
+    .naLoggedinuser li.has-sub ul li a {
+        width: 100% !important;
+    }
+
+    #cssmenu ul ul:after {
+        display: none;
+    }
+
+    /* --------------------------------------------------- 
+    USER RATING STARS -- STYLE
+    --------------------------------------------------- */
+
+    .rateStarNumber ul li {
+        text-align: left;
+    }
+
+    .na-user-intro-skills .toatal-rating {
+        margin: 5px 0px 26px 0px;
+        padding: 0;
+    }
+
+    .forAstrologerReviewBlock figure {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+    }
+
+    .naAstroRating {
+        float: none;
+    }
+
+    .na-rate-user-date h3 {
+        font-size: 12px;
+        margin: 5px 0px;
+    }
+
+    .naforAstrologer-rate-reviews p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+}
+/* ----------------------------------------------------max-width:768px -- Ends*/
+
+
+@media (max-width: 1800px){
+    .nahp-Bannerwrap:after {
+        bottom: -1px;
+    }
+}
+
+/* ----------------------------------------------------max-width: 1800px) -- Ends*/
+
+/*Thank you page css*/
+.thankyou-message {
+    width: 100%;
+    min-height: 30rem;
+}
