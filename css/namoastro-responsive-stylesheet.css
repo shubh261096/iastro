@@ -33,6 +33,11 @@
         display: none;
     }
 
+    .logo-icon {
+        width: 40px; /* Fixed width */
+        height: 40px; /* Fixed height */
+    }
+
     .namoastroLogo {
         position: absolute;
         z-index: 10;
