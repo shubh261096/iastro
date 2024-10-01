@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy - iAstro</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+
+<!-- Menu CSS -->
+<link rel="stylesheet" type="text/css" href="css/na-cssmenu.css">
+
+<!-- Namoastro CSS -->
+
+<link rel="stylesheet" type="text/css" href="css/na-header.css">
+<link rel="stylesheet" type="text/css" href="css/na-footer.css">
+<link rel="stylesheet" type="text/css" href="css/namoastro-stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/namoastro-responsive-stylesheet.css">
+
+<!-- OWL CAROUSEL CSS -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+<!-- Google Fonts  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&amp;family=Poppins:wght@200;300;400;600;700&amp;display=swap"
+    rel="stylesheet">
+
+<!-- Font-Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+<!-- Fevicon Icon CSS -->
+<link rel="apple-touch-icon" sizes="180x180" href="primary.png">
+<link rel="icon" type="image/png" sizes="32x32" href="primary.png">
+<link rel="icon" type="image/png" sizes="16x16" href="primary.png">
+
+<script async="" src="js/gtm.js"></script>
+<script src="js/jquery.min.js"></script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="js/owl.carousel.min.js"></script>
+
+<!-- Custom Script -->
+<script src="js/custom-script.js"></script>
+<script src="js/sp.sticky-header.js"></script>
+
+<!-- ionicons -->
+<script type="module" src="js/ionicons.esm.js"></script>
+<script nomodule="" src="js/ionicons.js"></script>
+
+<script src="js/purecounter_vanilla.js"></script>
+
+<!-- FEATHER ICONS -->
+<script src="https://unpkg.com/feather-icons"></script>
+
+<script>
+    var getTimeZoneOffSet = new Date().getTimezoneOffset();
+    document.cookie = "timeZoneOffset=" + getTimeZoneOffSet;
+</script>
+</head>
+<body>
+
+<!-- NAMOASTRO-HEADER -->
+	<!-- NAMOASTRO-HEADER -->
+	<header id="demo-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-ms-12">
+
+					<div class="namoastroLogo">
+						<img src="primary.png" alt="Logo Icon" class="logo-icon">
+						<!-- <h1 class="logo-text">iAstro</h1> -->
+					</div>
+
+					<!-- menu-starts -->
+					<div id="cssmenu">
+						<ul>
+							<li><a href="tel:+917827515429">Consult Astrologer</a></li>
+							<!-- <li><a href="">Horoscope</a></li> -->
+							<!-- <li><a href="">Nakshatra</a></li> -->
+							<!-- <li><a href="">Mobile App</a></li> -->
+							<!-- <li><a href="https://www.namoastro.com/blog/">Blogs </a></li> -->
+
+							<div class="naLoginSign">
+								<a href="tel:+917827515429" id="btnHeaderSignIn">Call Now</a>
+							</div>
+
+						</ul>
+					</div>
+					<!-- menu-ends -->
+
+				</div>
+
+			</div>
+		</div>
+	</header>
+	<script src="js/select2.min.js"></script>
+	<script src="js/jquery.dd.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/na-ddl-flag.css">
+	<script src="js/api.js" async="" defer=""></script>
+	<!-- LOGIN--SIGNUP MODEL -->
+	<div class="modal fade" id="LoginSignupModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+		aria-labelledby="LoginSignupModelLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content loginSignup-Model">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+				<div class="modal-body">
+					<div class="row">
+
+
+						<div class="col-md-6 LoginLeftPanel mobileInactiveCol">
+							<div class="login-left">
+								<h2>
+									Have question about Marriage,
+									Career or Relationship?
+								</h2>
+
+								<div class="na-login-left-img text-center">
+									<img class="img-responsive login-om-circle-bottom-base"
+										src="images/om-circle-bottom-base.png" alt="OM Circle">
+									<img class="img-responsive login-zodiac-symbols" src="images/zodiac-symbols.png"
+										alt="Zodiac Symbols">
+								</div>
+
+								<p>Talk to our best Astrologers</p>
+							</div>
+						</div>
+
+
+						<div class="col-md-6">
+
+							<!-- PHONE NUMBER -->
+							<div class="phone-login-signup text-center" id="divLoginSignup">
+								<h2>Welcome to iAstro</h2>
+								<p>You will receive a 4 digit code for verification</p>
+
+								<div class="col-md-12">
+									<div class="mb-3">
+										<label for="PhoneNumber" class="form-label">Enter your phone number</label>
+
+										<div class="input-group counrtyPhone">
+											<div class="col-md-4">
+												<div id="divCountryList" class="divCountryList"></div>
+
+											</div>
+											<div class="col-md-8">
+												<input type="tel" id="txtPhone" class="form-control phn-field"
+													placeholder="Enter mobile no." pattern="^((?!(0))[0-9]{9,15})$"
+													minlength="9" maxlength="12"
+													data-error="Please enter a valid phone number."
+													onkeypress="return isNumber(event)" required="">
+											</div>
+
+										</div>
+
+
+									</div>
+									<label id="lblmessage" style="color:red;display:none"></label>
+									<div class="captchfield" id="divReCaptcha" style="display:none">
+										<div class="g-recaptcha" data-type="image" id="gCatpchaonLogin"></div>
+										<div id="lblCaptchaErrorMessage" class="validcaptch"></div>
+									</div>
+									<button type="button" class="btn-phone-number" id="btnLoginSignupOtp">GET
+										OTP</button>
+
+									<p class="login-terms">By Signing up, you agree to our <a
+											href="/terms-conditions">Terms of Use</a> &amp; <a
+											href="privacy.html">Privacy Policy</a></p>
+
+								</div>
+							</div>
+							<form>
+								<!-- VERIFY PHONE -->
+								<div class="phone-login-signup text-center" id="divVerifyOtp" style="display: none;">
+									<h2>Verify Phone</h2>
+									<br>
+									<div class="col-md-12">
+										<div class="mb-3">
+											<p style="font-weight: 600;">OTP sent to <span id="spnPhone"></span></p>
+											<span id="spnErrorMessage" class="text-danger"></span>
+
+											<div class="input-group otpNumb">
+												<input type="tel" aria-label="First Digit"
+													class="form-control otpInputBox" id="txt1stDigit" maxlength="1"
+													required="">
+												<input type="tel" aria-label="Second Digit"
+													class="form-control otpInputBox" id="txt2ndDigit" maxlength="1"
+													required="">
+												<input type="tel" aria-label="Third Digit"
+													class="form-control otpInputBox" id="txt3rdDigit" maxlength="1"
+													required="">
+												<input type="tel" aria-label="Fourth Digit"
+													class="form-control otpInputBox" id="txt4thDigit" maxlength="1"
+													required="">
+											</div>
+										</div>
+
+										<label id="lblmessageotp" style="color:red;display:none"></label>
+
+										<button type="button" class="btn-phone-number" id="btnVerifyOtp">LOGIN</button>
+
+										<p class="login-terms"><a id="resentOtp" href="javascript:void(0)">Resend
+												OTP</a></p>
+
+									</div>
+								</div>
+							</form>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script>
+
+		function isNumber(evt) {
+			evt = (evt) ? evt : window.event;
+			var charCode = (evt.which) ? evt.which : evt.keyCode;
+			if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+				return false;
+			}
+			return true;
+		}
+
+		var CaptchaCallback = function () {
+			jQuery('.g-recaptcha').each(function (index, el) {
+				var sitekey = '6Ld49p4UAAAAAPF5ckSZm7zttDDn8l6fUCQfp-PE';
+				var widgetId = grecaptcha.render(el, { 'sitekey': sitekey });
+				jQuery(this).attr('data-widget-id', widgetId);
+			});
+		};
+	</script>
+
+
+	
+<!-- NAMOASTRO-HP-BANNER -->
+<section class="na-inner-banner-wrap">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="inner-banner-strip text-center">
+                    <h1>Privacy Policy</h1>
+
+                    <nav class="strip-beadcrumb" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
+                        </ol>
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- KUNDLY CALCULATOR -->
+<section class="na-content-Wrapper">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="na-content-section only-content-pages">
+                    <p>https://www.iastro.org ("we," "Lazyclick," "iastro" (web and application)) is dedicated to safeguarding the privacy of our website users, including astrologers and buyers/customers, whether they are registered or not. We urge you to read this privacy policy carefully to understand how we handle your information once you provide it to our website.</p>
+
+                    <p>This Privacy Policy is enacted in compliance with Rule 3(1) of the Information Technology (Intermediaries Guidelines) Rules, 2011, and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. These regulations mandate the publication of a privacy policy detailing the collection, use, storage, and transfer of sensitive personal data or information.</p>
+                    
+                    <strong>USER’S CONSENT</strong>
+                    <p>This Privacy Policy, which is subject to modifications at any time, outlines the handling of information collected from you, including personal identification, contact details, birth details, and forecasts generated with this data, and explains how such information is utilized for the purposes of our Website. By accessing and using this website, you acknowledge and agree to the terms outlined in this privacy policy. If you do not accept these terms, please refrain from using this website.</p>
+                    <p>
+                        Your continued use of this website signifies your unwavering consent to and acceptance of the terms of this privacy policy concerning the collection, storage, use, processing, and disclosure of your personal and other information as stipulated herein.
+                    </p>
+                    <p>
+                        This Privacy Policy should be read in conjunction with the Terms of Use and any other terms and conditions available on the Website.
+                    </p>
+                    <strong>Collection of Personal Information</strong>
+                    <p>
+                        Creating a user profile on iastro requires you to provide certain necessary information. The essential detail needed is your phone number for OTP (One-Time Password) verification to secure and validate the registration process. Additionally, providing your first name and last name is required. The date of birth (DOB) is optional, meaning you are not obligated to provide this detail during the registration process.
+                    </p>
+
+                    <strong>Purpose and Use of Data/Information Collection</strong>
+                    <p>By collecting your information, iastro aims to create a personalized user profile that addresses your unique needs and preferences. If you choose not to provide your date of birth, it will not impede the registration process, and you can still access all services offered by iastro with your verified phone number.</p>
+                    <strong>
+                        Data Deletion
+                    </strong>
+                    <p>Delete Profile: To delete your profile on iastro.com, including all associated personal information, contact at "hr@iastro.org”</a>.</p>
+                    <strong>
+                        Voice Recording and Microphone Permission
+                    </strong>
+                    <p>
+                        In our app, we offer a convenient option for you to communicate your queries through voice. This feature allows you to record your questions and comments directly via your device's microphone, making the interaction more intuitive and aligned with natural forms of communication.
+                    </p>
+                    <p>
+                        To use this feature, we require access to your device's microphone. Granting this permission enables our app to record and process your voice inputs, transforming them into digital data for improved app functionality.
+                    </p>
+                    <strong>
+                        Commitment to Privacy
+                    </strong>
+
+                    <p>
+                        The website is committed to protecting the privacy of all individuals who use our platform, whether registered users or mere visitors. We urge all users to be aware of the types of personally identifiable information we collect. This information is utilized primarily for generating predictions, but we assure that it will not be used directly or indirectly for any other purpose beyond delivering horoscope charts and predictions to the users themselves. We explicitly do not engage in selling or renting any user information.
+                    </p>
+                    <p>
+                        The Website does not offer solutions or support for users experiencing severe mental health issues, including thoughts of suicide or self-harm. Such individuals are advised to discontinue the use of our services immediately. Continued use of the website by such individuals is at their own risk, and iastro assumes no liability for any resultant consequences. Furthermore, we reserve the right to share information provided by such users with law enforcement authorities if necessary. This information is not protected under any non-disclosure or confidentiality agreements, either with iastro or any third parties.
+                    </p>
+                    <p>
+                        The Website does not guarantee the accuracy of predictions made by our astrologers. Furthermore, we do not assume any responsibility or liability for the authenticity or quality of gems and other items sold on our website. No warranties are provided for these services or products.
+                    </p>
+
+                    <strong>
+                        DATA COLLECTION & DATA HANDLING:
+                    </strong>
+                    <br />
+                    <bold>Personal Identifiable Information (PII):</bold>
+                    <p>
+                        PII refers to information that identifies an individual specifically. During your interactions with our website, we may collect the following personal data:
+                    </p>
+                    <bold>
+                        Account Creation/Registration Data:
+                    </bold>
+
+                    <p>
+                        To access certain parts of the website, you may need to create an account. The personal information we collect for account creation may include, but is not limited to, your full name, address, telephone number, email address, date of birth, gender, location, photograph, and other items deemed as ‘sensitive personal data or information’ as defined under the Information Technology (Reasonable Security Practices And Procedures And Sensitive Personal Data Of Information) Rules, 2011 of the Information Technology Act, 2000. This information helps secure your user profile and facilitates the personalized email and SMS services we provide.
+                    </p>
+                    <bold>
+                        Booking a Paid Service:
+                    </bold>
+                    <p>When booking a service through our Order Form, we may collect personal data similar to that collected during registration and may also include financial details such as bank account numbers, credit card or debit card details, or other payment instrument details via a secure third-party gateway. Your IP (Internet Protocol) address and any additional information you provide when booking a service are also collected. This information is maintained with the highest confidentiality. It is important for users to understand that without registration, our ability to provide certain services may be limited due to the non-availability of your personal identifiable information.</p>
+                    <bold>Log Files, IP Address, and Cookies:</bold>
+                    <p>Our website collects information that your browser stores on your computer’s hard drive through cookies. We also log generic information about your Internet connection, known as session data. Our website may store temporary or permanent cookies on your computer to recognize your device on subsequent visits, including details such as the time and date of your visit, the pages viewed, and session length. This helps verify your registration and password information. You have the option to block these cookies, but please be aware that doing so may prevent you from using certain features of the website. We use cookies to enhance and personalize your experience on our website and to offer advertisements tailored to your preferences.</p>
+                    <bold>Third-Party Platforms:</bold>
+                    <p>Some services on our website may direct you to third-party platforms. Any information you provide on these platforms is subject to the privacy policies of those platforms. We disclaim any liability for the use or misuse of your information by these third parties or any unknown parties.</p>
+                    <bold>
+                        User Contributions:
+                    </bold>
+                    <p>
+                        We also collect information that you may choose to share in public areas of the website, such as articles, blogs, groups, forums, or other pages. This includes feedback and comments. Since this information is public and accessible to other users and visitors, we advise you to exercise discretion before sharing, as it is susceptible to misuse.
+
+                    </p>
+                    <bold>
+                        Miscellaneous Activities:
+                    </bold>
+                    <p>
+                        Additionally, we may collect other information as required or receive data through email or other communications regarding specific services you have availed from our website or products you have purchased. This information, while not part of your user profile, is used solely to address your specific needs or concerns.
+
+                    </p>
+                    <strong>
+                        Non-Personal Identifiable Information:
+                    </strong>
+                    <p>
+                        Non-personal identifiable information refers to data that does not specifically identify you as an individual. This type of information is collected through various means such as when you visit our website, through cookies, and may include, but is not limited to:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <bold>URLs:</bold> The Uniform Resource Locator (URL) of the previous website you visited before ours, or the URL of the website you visit after leaving ours.
+                            </li>
+                            <li>
+                                <bold>Internet Service Provider Details:</bold> Your internet service provider, IP address, or telecom service provider.
+                            </li>
+                            <li>
+                                <bold>Browser Type:</bold> The type of browser you use to access our website.
+                            </li>
+                            <li>
+                                <bold>Geographical Location:</bold> The general location from which you access our website.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        This non-personal information is utilized for various purposes including troubleshooting connection issues, administering the website, analyzing trends, collecting demographic data, monitoring the frequency and duration of visits, and the pages viewed during those visits. It also assists in ensuring compliance with applicable laws and facilitating cooperation with law enforcement activities.
+                    </p>
+                    <p>
+                        Furthermore, this data helps in enhancing the content and performance of our site. We may share this information with third-party service providers and advertisers to assess the overall effectiveness of our online advertising, content, and other programs. This information is also used for other legitimate purposes as necessary.
+                    </p>
+                    <strong>
+                        User Representation and Responsibility:
+                    </strong>
+                    <p>
+                        THE USER HEREBY REPRESENTS AND CONFIRMS THAT ALL INFORMATION PROVIDED TO THE WEBSITE IS AUTHENTIC, ACCURATE, CURRENT, AND UP-TO-DATE. THE WEBSITE AND ITS ENTITIES ARE NOT RESPONSIBLE FOR VERIFYING THE AUTHENTICITY OF THE INFORMATION SUPPLIED BY THE USER. THE USER ASSUMES FULL LIABILITY AND AGREES TO INDEMNIFY THE WEBSITE FOR ANY BREACHES OF PROVISIONS RELATED TO THE ACCURACY AND AUTHENTICITY OF THE INFORMATION PROVIDED.
+                    </p>
+                    <strong>
+                        SECURITY MEASURES:
+                    </strong>
+                    <p>
+                        The security of the personal information you provide is of utmost importance to us. To protect your data, our website implements various security measures, including both physical and electronic safeguards, to prevent unauthorized access. Your personal information is collected on a secured server. Payment details are entered directly on the Payment Gateway’s or Bank’s page, which is protected by secure SSL technology. The data transmitted between the bank’s page and the payment gateway is encrypted to enhance security.
+                    </p>
+                    <p>
+                        However, please be aware that no method of data transmission over the internet can be guaranteed as completely secure. Therefore, we advise you to exercise caution and care in sharing any sensitive information on the website, including your login details created during registration. Please note that our website is not responsible for the security or confidentiality of communications you send through the internet, including email messages.
+                    </p>
+                    <strong>
+                        USAGE OF THE INFORMATION:
+                    </strong>
+                    <p>The information collected by our website is utilized in accordance with applicable laws and includes, but is not limited to, the following purposes:</p>
+                    <p>
+                        <ul>
+                            <li>
+                                Personalized Browsing Experience: We use the personal information outlined in the “Personal Identifiable Information” section for research purposes to enhance our marketing and promotional efforts, analyze site usage, improve website content, and tailor the website's layout to better suit user needs, while ensuring user anonymity.
+                            </li>
+                            <li>
+                                IP Tracking and Cookies: Information gathered through IP tracking and cookies is used solely to facilitate your use of the website and enhance personalization. Sensitive information will not be shared with third parties without the user's consent.
+                            </li>
+                            <li>Retention of Information: All information collected, including personal information, user data, and other related details, may be retained by the website as necessary to comply with legal obligations, tax requirements, or for evidentiary purposes. This information helps administer and manage your access and use of our services, including resolving any disputes.</li>
+                            <li>Enhanced Site Functionality: The data collected through cookies, log files, device identifiers, location data, and clear gifs is used to streamline your experience by remembering information for future visits, providing personalized content (including advertising), monitoring the effectiveness of our services, gathering demographic data, diagnosing technology issues, and planning service enhancements.</li>
+                            <li>Analytics: We employ third-party analytics tools to measure traffic and usage trends. These tools collect non-sensitive information from your device, such as the web pages you visit, browser add-ons, and other data that help improve our services. The information is collected in anonymized logs that cannot reasonably be used to identify individual users.</li>
+                        </ul>
+                    </p>
+                    <strong>
+                        CONFIDENTIALITY:
+                    </strong>
+                    <p>Our website is committed to safeguarding all information provided by its users, which may be considered confidential. Confidential information that is not required by the website is specifically excluded from the definition of Personal Information and will not be collected or used. We ensure that confidential information is not disclosed or shared by our website, its employees, agents, or any third-party contractors, including experts, except under the following circumstances:</p>
+                    <p>
+                        <ul>
+                            <li>
+                                If there is a significant, real, or imminent threat or risk to the health, safety, or life of a user, another person, or the public.
+                            </li>
+                            <li>
+                                If disclosure of confidential information is required by law, including investigations, court summonses, or judicial proceedings.
+                            </li>
+                            <li>
+                                To protect and defend the rights or property of the website.
+                            </li>
+                        </ul>
+                    </p>
+                    <strong>CHILDREN'S PRIVACY POLICY:</strong>
+                    <p>The website stipulates that users must be 18 years of age or older to utilize its services. While some information may be accessible to children under the age of 18, it is important to note that our website is not designed to attract children under the age of 13. We do not knowingly collect any personally identifiable information from children under 13 years of age. IF YOU ARE UNDER 13 YEARS OF AGE, PLEASE DO NOT USE ANY OF THE SERVICES PROVIDED BY THE WEBSITE AT ANY TIME OR IN ANY MANNER. If a parent or guardian becomes aware that their child under the age of 13 has provided us with personal information, please contact us immediately. We will take necessary steps to remove such information from our systems.</p>
+                    <strong>Safety and Security:</strong>
+                    <p>
+                        At iastro.org, we prioritize the privacy and security of our users. We implement industry-leading practices to safeguard personal information such as birth details, addresses, and financial data, including credit card and debit card transaction details. Our website uses advanced encryption methods to ensure that all transactions are secure. We encourage our users to confidently use their credit/debit cards on iastro.com, as we are committed to ensuring the safety and security of all user interactions on our platform, providing a safe and secure experience for everyone.
+                    </p>
+                    <strong>
+                        DISCLAIMER:
+                    </strong>
+                    <p>iastro.org IS NOT RESPONSIBLE FOR ANY INTERACTIONS OR COMMUNICATIONS BETWEEN THE USER AND ANY THIRD-PARTY WEBSITES. USERS ARE ADVISED TO REVIEW THE PRIVACY POLICIES AND OTHER RELATED POLICIES OF THIRD-PARTY WEBSITES. THIS WEBSITE WILL NOT BE HELD LIABLE FOR ANY ACTIONS TAKEN BASED SOLELY ON THE PRESENCE OF A THIRD-PARTY LINK ON OUR WEBSITE.</p>
+                    <strong>
+                        GRIEVANCE OFFICER:
+                    </strong>
+                    <p>
+                        Name: Shubham Agrawal
+                        <br />
+                        Email: hr@iastro.org
+                        <br /><br />
+                        The designated Grievance Officer is appointed in compliance with the Information Technology Act, 2000 and the rules made thereunder. The Officer is available to be contacted for any discrepancies observed on the website, breaches of Terms of Use, the Privacy Policy, or other policies, as well as for addressing any complaints or concerns users may have.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- FULL PAGE LOADER STARTS-->
+<div id="naOverlay" style="display:none;">
+    <div class="namo-loader text-center">
+        <img src="/images/namo-outer-loader-ring.png" alt="zodiac-circle-horoscope" class="img-responsive namo-outer-loader-ring">
+        <img src="/images/namo-inner-loader-ring.png" alt="zodiac-sun-horoscope" class="img-responsive namo-inner-loader-ring">
+        <p>Loading</p>
+    </div>
+</div>
+<!-- FULL PAGE LOADER ENDS-->
+	
+
+<!-- The Modal -->
+<div id="divNamoApp" class="PlaystoreModal">
+    <!-- Modal content -->
+    <div class="na-modal-content">
+        <span class="close">&times;</span>
+        <div class="inner-cta text-center">
+            <div class="na-modal-content-block">
+                <h4>
+                    <span>Unlock Your Cosmic Destiny <br></span> Chat FREE First 5 Minutes! <br>
+                </h4><a href="tel:+917827515429" target="_blank">Chat with Astrologer</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	<!-- FOOTER -->
+	<footer class="nav-footer">
+		<div class="container">
+			<div class="row">
+            <div class="col-sm-4">
+                <div class="nav-footer-item nav namoInfos">
+                    <!-- <h4 style="border-bottom: none;" id="h4Address"><a href="javascript:void(0);" class="logo" id="ttlogo" runat="server"><span></span></a></h4> -->					
+                    <ul class="addressdetails">
+                        <li><i class="fas fa-map-marker-alt"></i>10/259, Bhikhampur Road Deoria UP</li>
+                        <li><a href="tel:+917827515429"><i class="fas fa-phone-alt"></i> (+91) 7827515429</a></li>
+                        <li><a href="mailto:hr@iastro.org"><i class="fas fa-envelope"></i> hr@iastro.org</a></li>
+
+                        <div class="followuson">
+                            <ul>
+                                <p>Follow us on:</p>
+                                <li><a rel="nofollow" target="blank" href="https://www.facebook.com/profile.php?id=61566356377726"><img src="images/na-facebook-icon.png" alt="Facebook"></a></li>
+                                <li><a rel="nofollow" target="blank" href="https://www.instagram.com/iastroorg/"><img src="images/na-instagram%20-icon.png" alt="Instagram"></a></li>
+                                <!-- <li><a rel="nofollow" target="blank" href="https://twitter.com/NamoAstroSocial"><img src="images/na-x-icon.png" alt="X"></a></li> -->
+                                <!-- <li><a rel="nofollow" target="blank" href="/app"><img src="images/na-google-play-icon.png" alt="App"></a></li> -->
+
+                            </ul>
+                        </div>
+
+                       
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="nav-footer-item nav">
+                    <h4>Corporate Info</h4>
+                    <ul class="footerItem-list">
+                        <!-- <li><a href="/about-us">About us</a></li> -->
+                        <li><a href="contact.html">Contact us</a></li>
+                        <!-- <li><a href="javascript:void(0);">Free Kundli</a></li> -->
+                        <!-- <li><a href="/faqs">FAQ’s</a></li> -->
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="col-sm-3">
+                <div class="nav-footer-item nav">
+                    <h4>Calendar</h4>
+                    <ul class="footerItem-list">
+                        <li><a href="/calendar/ekadashi-vrat">Ekadashi</a></li>
+                        <li><a href="/calendar/purnima-vrat">Purnima Vrat</a></li>
+                        <li><a href="/calendar/pradosh-vrat">Pradosh Vrat</a></li>
+                        <li><a href="/calendar/sankashti-chaturthi-vrat">Sankashti Chaturthi Vrat</a></li>
+                        <li><a href="/calendar/vinayaka-chaturthi-vrat">Vinayaka Chaturthi Vrat</a></li>
+                        <li><a href="/calendar/amavasya">Amavasya</a></li>
+                        <li><a href="/calendar/chinese">Chinese</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+            <!-- <div class="col-sm-2">
+                <div class="nav-footer-item nav">
+                    <h4>Sun Signs</h4>
+                    <ul class="footerItem-list">
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/aries/">Aries</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/taurus/">Taurus</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/gemini/">Gemini</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/cancer/">Cancer</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/leo/">Leo</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/virgo/">Virgo</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+        </div> 
+			<div class="row footerCaption">
+				<div class="col-sm-12">
+					<div class="cpyright">© 2024 iAstro. All Right Reserved.</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script>
+    $(document).ready(function () {
+        // Show the div when the window loads
+        $("#divNamoApp").css("display", "block");
+
+        // Hide the div when the close button is clicked
+        $(".close").on("click", function () {
+            $("#divNamoApp").css("display", "none");
+        });
+    });
+    if (window.screen.width > 1200) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('header').addClass("active");
+                $('header').removeClass("translucent");
+            } else {
+                $('header').removeClass("active");
+                $('header').addClass("translucent");
+            }
+        });
+    }
+    //FEATHER ICONS
+    feather.replace();
+
+</script>
+
+	<script>
+		new PureCounter();
+		new PureCounter({
+			filesizing: true,
+			selector: ".filesizecount",
+			pulse: 2,
+		});
+	</script>
+</body>
+</html>
