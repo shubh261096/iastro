@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - iAstro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="css/na-cssmenu.css">
+
+    <!-- Namoastro CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/na-header.css">
+    <link rel="stylesheet" type="text/css" href="css/na-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/namoastro-stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/namoastro-responsive-stylesheet.css">
+
+    <!-- OWL CAROUSEL CSS -->
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&amp;family=Poppins:wght@200;300;400;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Font-Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- Fevicon Icon CSS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="primary.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="primary.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="primary.png">
+
+    <script async="" src="js/gtm.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/custom-script.js"></script>
+    <script src="js/sp.sticky-header.js"></script>
+
+    <!-- ionicons -->
+    <script type="module" src="js/ionicons.esm.js"></script>
+    <script nomodule="" src="js/ionicons.js"></script>
+
+    <script src="js/purecounter_vanilla.js"></script>
+
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+        var getTimeZoneOffSet = new Date().getTimezoneOffset();
+        document.cookie = "timeZoneOffset=" + getTimeZoneOffSet;
+    </script>
+</head>
+
+<body>
+
+    <!-- NAMOASTRO-HEADER -->
+    <header id="demo-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-ms-12">
+
+                    <div class="namoastroLogo">
+                        <img src="primary.png" alt="Logo Icon" class="logo-icon">
+                        <!-- <h1 class="logo-text">iAstro</h1> -->
+                    </div>
+
+                    <!-- menu-starts -->
+                    <div id="cssmenu">
+                        <ul>
+                            <li><a href="tel:+917827515429">Consult Astrologer</a></li>
+                            <!-- <li><a href="">Horoscope</a></li> -->
+                            <!-- <li><a href="">Nakshatra</a></li> -->
+                            <!-- <li><a href="">Mobile App</a></li> -->
+                            <!-- <li><a href="https://www.namoastro.com/blog/">Blogs </a></li> -->
+
+                            <div class="naLoginSign">
+                                <a href="tel:+917827515429" id="btnHeaderSignIn">Call Now</a>
+                            </div>
+
+                        </ul>
+                    </div>
+                    <!-- menu-ends -->
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.dd.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/na-ddl-flag.css">
+    <script src="js/api.js" async="" defer=""></script>
+    <!-- LOGIN--SIGNUP MODEL -->
+    <div class="modal fade" id="LoginSignupModel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="LoginSignupModelLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content loginSignup-Model">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal-body">
+                    <div class="row">
+
+
+                        <div class="col-md-6 LoginLeftPanel mobileInactiveCol">
+                            <div class="login-left">
+                                <h2>
+                                    Have question about Marriage,
+                                    Career or Relationship?
+                                </h2>
+
+                                <div class="na-login-left-img text-center">
+                                    <img class="img-responsive login-om-circle-bottom-base"
+                                        src="images/om-circle-bottom-base.png" alt="OM Circle">
+                                    <img class="img-responsive login-zodiac-symbols" src="images/zodiac-symbols.png"
+                                        alt="Zodiac Symbols">
+                                </div>
+
+                                <p>Talk to our best Astrologers</p>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <!-- PHONE NUMBER -->
+                            <div class="phone-login-signup text-center" id="divLoginSignup">
+                                <h2>Welcome to iAstro</h2>
+                                <p>You will receive a 4 digit code for verification</p>
+
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label for="PhoneNumber" class="form-label">Enter your phone number</label>
+
+                                        <div class="input-group counrtyPhone">
+                                            <div class="col-md-4">
+                                                <div id="divCountryList" class="divCountryList"></div>
+
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="tel" id="txtPhone" class="form-control phn-field"
+                                                    placeholder="Enter mobile no." pattern="^((?!(0))[0-9]{9,15})$"
+                                                    minlength="9" maxlength="12"
+                                                    data-error="Please enter a valid phone number."
+                                                    onkeypress="return isNumber(event)" required="">
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                    <label id="lblmessage" style="color:red;display:none"></label>
+                                    <div class="captchfield" id="divReCaptcha" style="display:none">
+                                        <div class="g-recaptcha" data-type="image" id="gCatpchaonLogin"></div>
+                                        <div id="lblCaptchaErrorMessage" class="validcaptch"></div>
+                                    </div>
+                                    <button type="button" class="btn-phone-number" id="btnLoginSignupOtp">GET
+                                        OTP</button>
+
+                                    <p class="login-terms">By Signing up, you agree to our <a
+                                            href="/terms-conditions">Terms of Use</a> &amp; <a
+                                            href="privacy.html">Privacy Policy</a></p>
+
+                                </div>
+                            </div>
+                            <form>
+                                <!-- VERIFY PHONE -->
+                                <div class="phone-login-signup text-center" id="divVerifyOtp" style="display: none;">
+                                    <h2>Verify Phone</h2>
+                                    <br>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <p style="font-weight: 600;">OTP sent to <span id="spnPhone"></span></p>
+                                            <span id="spnErrorMessage" class="text-danger"></span>
+
+                                            <div class="input-group otpNumb">
+                                                <input type="tel" aria-label="First Digit"
+                                                    class="form-control otpInputBox" id="txt1stDigit" maxlength="1"
+                                                    required="">
+                                                <input type="tel" aria-label="Second Digit"
+                                                    class="form-control otpInputBox" id="txt2ndDigit" maxlength="1"
+                                                    required="">
+                                                <input type="tel" aria-label="Third Digit"
+                                                    class="form-control otpInputBox" id="txt3rdDigit" maxlength="1"
+                                                    required="">
+                                                <input type="tel" aria-label="Fourth Digit"
+                                                    class="form-control otpInputBox" id="txt4thDigit" maxlength="1"
+                                                    required="">
+                                            </div>
+                                        </div>
+
+                                        <label id="lblmessageotp" style="color:red;display:none"></label>
+
+                                        <button type="button" class="btn-phone-number" id="btnVerifyOtp">LOGIN</button>
+
+                                        <p class="login-terms"><a id="resentOtp" href="javascript:void(0)">Resend
+                                                OTP</a></p>
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function isNumber(evt) {
+            evt = (evt) ? evt : window.event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                return false;
+            }
+            return true;
+        }
+
+        var CaptchaCallback = function () {
+            jQuery('.g-recaptcha').each(function (index, el) {
+                var sitekey = '6Ld49p4UAAAAAPF5ckSZm7zttDDn8l6fUCQfp-PE';
+                var widgetId = grecaptcha.render(el, { 'sitekey': sitekey });
+                jQuery(this).attr('data-widget-id', widgetId);
+            });
+        };
+    </script>
+
+
+    <!-- INNER-BANNER STRIP -->
+    <section class="na-inner-banner-wrap">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="inner-banner-strip text-center">
+                        <h1>About iastro</h1>
+
+                        <nav class="strip-beadcrumb" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                            </ol>
+                        </nav>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT NAMOASTRO -->
+    <section class="naAboutWrap">
+        <div class="container">
+
+            <!-- <div class="row">
+			<div class="col-md-12">
+				<div class="na-section-heading">
+					<h2>Who We Are</h2>
+				</div>
+			</div>
+		</div> -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+                        <p> iAstro is making an exemplary mark in the field of astrology and predictive science and
+                            is quickly becoming the go-to provider for astrological consultation and analysis. In the
+                            past few years, astrology consultation has become very popular as people are increasingly
+                            leaning towards astrology to consult for their future. People are interested in astrology
+                            because it provides a way to predict future events and identify patterns. At iAstro, we
+                            are keen to cater to people’s needs through astrology and allied services. </p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row">
+                <!-- <div class="col-md-6">
+				<video class="na-video-frame" controls>
+					<source src="assets/videos/istockphoto-1322892924.mp4" type="video/mp4">
+				</video>
+			</div> -->
+
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+
+                        <!-- <div class="na-inner-section-heading"> -->
+                        <div class="na-section-heading">
+                            <h2>Origin of India Vedic Astrology</h2>
+                        </div>
+
+                        <!-- <div class="about-highlight-content"> -->
+                        <div class="na-content-section text-center">
+                            <p>Astrology is ‌predictive science and has been in practise since time immemorial in India.
+                                It is believed that both Indian astronomy and astrology developed together. The Bhrigu
+                                Samhita is the earliest record of Jyotisha (astrology). It was written by Maharishi
+                                Bhrigu during the Vedic era. Bhirgu Maharishi is also called the "Father of Vedic
+                                Astrology." He is one of the seven venerated Saptarishi or Vedic sages.</p>
+
+                            <p>Astrology or jyotiṣa is listed as a Vedanga, or branch of the Vedas of the Vedic
+                                religion. The only work of this class to have survived is the Vedanga Jyotisha (as much
+                                of the text is lost), which explains rules for tracking the motions of the sun and the
+                                moon in the context of a five-year intercalation cycle. The date of this important
+                                astrological work is uncertain, but the language and the content indicate that it is
+                                among the oldest astrological studies in the world.</p>
+
+                            <p>The Samhita (Compilation) is a text written on pages of tree bark that are said to
+                                contain the horoscopes of five million people who have lived in the past or will live in
+                                the future.</p>
+                        </div>
+
+                        <!-- <div class="yearExperence">
+						<figure>
+							<img src="assets/images/namoastro-icon.svg" alt="Namoastro">
+						</figure>
+
+						<h3>30 <span>years of Experience</span></h3>
+					</div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section class="naAboutWrap lightBg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-section-heading">
+                        <h2>Our Online Astrologers</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+                        <p>Our astrologers come from different walks of life, but they are the best in their field. They
+                            also have extensive knowledge of astrology, which makes it easy for them to provide you with
+                            accurate readings. Make sure to call us if you have any questions or if you would like to
+                            make an appointment. We look forward to helping you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-section-heading">
+                        <h2>What is iAstro Doing?</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+                        <p>At iAstro, we are working to make traditional Vedic astrology more accessible and
+                            approachable to people. We believe that by making astrology more accessible and
+                            approachable, we can help people make better decisions and live happier lives.</p>
+
+                        <p>For this, we use the latest technology to give our customers the best possible service,
+                            selection, quality, and value in different services. We are always looking to improve our
+                            services to give you the best possible experience. Here are some of the ways we are doing
+                            this.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+                        <p>
+                            <strong>For Details:</strong><br>
+                            hr@iastro.org,<br>
+                            10/259, Bhikhampur Road Deoria UP | Phone: +91 7827515429
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- NAMOASTRO STATS -->
+    <section class="naStatsWrap">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="mission-vission-block">
+                        <figure>
+                            <img src="images/mission-white.png" alt="Namoastro-Mission">
+                        </figure>
+                        <h4>Mission</h4>
+                        <p>Our goal is to provide people with authentic, trustworthy, and helpful service providers who
+                            can help them with astrological guidance and direction using astrological remedies.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mission-vission-block">
+                        <figure>
+                            <img src="images/vision-white.png" alt="Namoastro-Vision">
+                        </figure>
+                        <h4>Vision</h4>
+                        <p>
+                            We look forward to a future where people can live an incredibly happy and fulfilled life,
+                            free from the worries of the outside world.
+                            <br><br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ABOUT NAMOASTRO -->
+    <section class="naAboutWrap lightBg">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+
+                        <!-- <div class="na-inner-section-heading"> -->
+                        <div class="na-section-heading">
+                            <h2>Online Astrology Consultation & Services</h2>
+                        </div>
+
+                        <!-- <div class="about-highlight-content"> -->
+                        <div class="na-content-section text-center">
+                            <p>We believe that by creating a cohesive community of like-minded people, we can help
+                                everyone better understand and benefit from astrological, spiritual, and healthy living
+                                experiences.</p>
+
+                            <p>We seek to benefit everyone using our services. With an aim to nurture a community of the
+                                best astrologers, we continue to serve people using their expertise in Vedic Astrology,
+                                tarot card reading, Vastu Shastra, numerology, Reiki healing, Palmistry, and many more
+                                subjects.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ABOUT NAMOASTRO -->
+    <section class="naAboutWrap">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="na-content-section text-center">
+
+                        <!-- <div class="na-inner-section-heading"> -->
+                        <div class="na-section-heading">
+                            <h2>Why Choose Our Astrology Experts?</h2>
+                        </div>
+
+                        <!-- <div class="about-highlight-content"> -->
+                        <div class="na-content-section text-center">
+                            <p>From astrological questions to numerology to horoscope readings, we have the expertise
+                                and practitioners to help you connect with your planetary position questions. No matter
+                                what type of inquiry you have about astrology, palmistry, numerology, or tarot cards,
+                                our professional astrologers have the knowledge to point you in the proper route.</p>
+
+                            <p>If you want to communicate with astrologers, check free kundalis, find a partner, want to
+                                discuss ‌jobs and careers, get daily horoscopes, get a horoscope, buy gems and
+                                rudrakshas, and more, iAstro is the place to go. Our top astrologers for marriage,
+                                careers, jobs, childbirth, marital issues, health, etc. are available online.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FULL PAGE LOADER STARTS-->
+    <div id="naOverlay" style="display:none;">
+        <div class="namo-loader text-center">
+            <img src="images/namo-outer-loader-ring.png" alt="zodiac-circle-horoscope"
+                class="img-responsive namo-outer-loader-ring">
+            <img src="images/namo-inner-loader-ring.png" alt="zodiac-sun-horoscope"
+                class="img-responsive namo-inner-loader-ring">
+            <p>Loading</p>
+        </div>
+    </div>
+    <!-- FULL PAGE LOADER ENDS-->
+
+
+	<!-- The Modal -->
+	<div id="divNamoApp" class="PlaystoreModal">
+		<!-- Modal content -->
+		<div class="na-modal-content">
+			<span class="close">&times;</span>
+			<div class="inner-cta text-center">
+				<div class="na-modal-content-block">
+					<h4>
+						<span>Unlock Your Cosmic Destiny <br></span> Chat FREE First 5 Minutes! <br>
+					</h4><a href="tel:+917827515429" target="_blank">Chat with Astrologer</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- FOOTER -->
+	<footer class="nav-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="nav-footer-item nav namoInfos">
+						<!-- <h4 style="border-bottom: none;" id="h4Address"><a href="javascript:void(0);" class="logo" id="ttlogo" runat="server"><span></span></a></h4> -->
+						<ul class="addressdetails">
+							<li><i class="fas fa-map-marker-alt"></i>10/259, Bhikhampur Road Deoria UP</li>
+							<li><a href="tel:+917827515429"><i class="fas fa-phone-alt"></i> (+91) 7827515429</a></li>
+							<li><a href="mailto:hr@iastro.org"><i class="fas fa-envelope"></i> hr@iastro.org</a></li>
+
+							<div class="followuson">
+								<ul>
+									<p>Follow us on:</p>
+									<li><a rel="nofollow" target="blank"
+											href="https://www.facebook.com/profile.php?id=61566356377726"><img
+												src="images/na-facebook-icon.png" alt="Facebook"></a></li>
+									<li><a rel="nofollow" target="blank"
+											href="https://www.instagram.com/iastroorg/"><img
+												src="images/na-instagram%20-icon.png" alt="Instagram"></a></li>
+									<!-- <li><a rel="nofollow" target="blank" href="https://twitter.com/NamoAstroSocial"><img src="images/na-x-icon.png" alt="X"></a></li> -->
+									<!-- <li><a rel="nofollow" target="blank" href="/app"><img src="images/na-google-play-icon.png" alt="App"></a></li> -->
+
+								</ul>
+							</div>
+
+
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="nav-footer-item nav">
+						<h4>Corporate Info</h4>
+						<ul class="footerItem-list">
+							<li><a href="about.html">About us</a></li>
+							<li><a href="contact.html">Contact us</a></li>
+							<!-- <li><a href="javascript:void(0);">Free Kundli</a></li> -->
+							<!-- <li><a href="/faqs">FAQ’s</a></li> -->
+							<li><a href="privacy.html">Privacy Policy</a></li>
+							<li><a href="terms.html">Terms &amp; Conditions</a></li>
+							<li><a href="disclaimer.html">Disclaimer</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- <div class="col-sm-3">
+                <div class="nav-footer-item nav">
+                    <h4>Calendar</h4>
+                    <ul class="footerItem-list">
+                        <li><a href="/calendar/ekadashi-vrat">Ekadashi</a></li>
+                        <li><a href="/calendar/purnima-vrat">Purnima Vrat</a></li>
+                        <li><a href="/calendar/pradosh-vrat">Pradosh Vrat</a></li>
+                        <li><a href="/calendar/sankashti-chaturthi-vrat">Sankashti Chaturthi Vrat</a></li>
+                        <li><a href="/calendar/vinayaka-chaturthi-vrat">Vinayaka Chaturthi Vrat</a></li>
+                        <li><a href="/calendar/amavasya">Amavasya</a></li>
+                        <li><a href="/calendar/chinese">Chinese</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+				<!-- <div class="col-sm-2">
+                <div class="nav-footer-item nav">
+                    <h4>Sun Signs</h4>
+                    <ul class="footerItem-list">
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/aries/">Aries</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/taurus/">Taurus</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/gemini/">Gemini</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/cancer/">Cancer</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/leo/">Leo</a></li>
+                        <li><a href="https://www.namoastro.com/astrology/horoscope/todays-horoscope/virgo/">Virgo</a></li>
+                    </ul>
+                </div>
+            </div> -->
+
+			</div>
+			<div class="row footerCaption">
+				<div class="col-sm-12">
+					<div class="cpyright">© 2024 iAstro. All Right Reserved.</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script>
+		$(document).ready(function () {
+			// Show the div when the window loads
+			$("#divNamoApp").css("display", "block");
+
+			// Hide the div when the close button is clicked
+			$(".close").on("click", function () {
+				$("#divNamoApp").css("display", "none");
+			});
+		});
+		if (window.screen.width > 1200) {
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 100) {
+					$('header').addClass("active");
+					$('header').removeClass("translucent");
+				} else {
+					$('header').removeClass("active");
+					$('header').addClass("translucent");
+				}
+			});
+		}
+		//FEATHER ICONS
+		feather.replace();
+
+	</script>
+
+	<script>
+		new PureCounter();
+		new PureCounter({
+			filesizing: true,
+			selector: ".filesizecount",
+			pulse: 2,
+		});
+	</script>
+</body>
+
+</html>
